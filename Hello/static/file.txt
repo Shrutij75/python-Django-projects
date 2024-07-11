@@ -1,0 +1,1 @@
+this is a static file and user can access and see only the static files

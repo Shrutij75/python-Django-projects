@@ -1,0 +1,66 @@
+'''firsly the html , css and javascript are working on the web server and they will show 
+the result to the client when the client requests from the browser.
+then these three access the client requsets
+now, the django is a python framework that is used bcz it stores the data bases into it so 
+that we can directly made any chnages into data bases 
+also django has more flexible management than html,css,js so it is more better
+django is a python framework that contains a lot of libraries and helps us in making 
+websites that contains the project and apps into us
+django works upon MVT(MODEL VIEW TEMPLATE) approach as MODEL is the information about 
+the database where data is stored view is associated with the template as it is linked
+with the model and fetch the information from the model,processing it and 
+rendering it to the template.
+view is only a single entity.
+there is not controller in django.
+url dispatcher url ko lekr forward krti h
+
+context are the set or value of variables
+#<p>lorem455 <p>likh ne se automatically random text generate ho jata h
+
+the blocks are used to add some text or title which is changed or updated everywhere 
+in a single chng.
+the bocks data are given in the index file which is used to render the information.
+
+unsplash.com=gives us the high quality pictures .
+bootstrap=provides us the html css already writeen codes.
+'''
+'''after image fetching from the random source of thee unsplash site , then we will take the album components from the
+example option of the bootstrap
+the alum option creates a templates for us onn the index page and then we can add the images into these templates
+by our choice.'''
+
+'''in the contact page we will add an image and also write the text upon the image if needed
+by going in the inspect and then add the <h3 style=
+poaition:
+    left:
+    top:
+    >contact us</h3>
+'''
+#crf token- is used to ensure that the request come in our database 
+#is come from our own website not from any external source
+
+'''hum database bnayeege django m jo humri requests ko store krega
+model=database ko define krti h.
+and model.py ek file khud se create ho jati h myapp ki directory me .
+or models and django me field hote h like charfield and textfield.
+read the description about the fields in django from google.
+'''
+#makemigration:mene kch chnges kiye h to jango jake un chnges ki ek file create krlo
+
+'''importnt:
+uske bd humne jo model bnaya h usko import krlege admin.py me-"model register in admin.py"
+and then settings.py m installed app me app.py se name copy krke update krdege-"app register in setting.py"
+uske bd hi migration file generate hogi
+'''
+'''run command migrate to create the table that now stores the data of that form and show us on the admin panel of the site.'''
+
+#makemigrations-create changes and store in a file
+#migrate- apply the pending changes created by makemigrations
+
+'''after that we want to store the data into our database and wnted that it will give us an alert messge like your data
+is sent so we will apply the message framework into base.html file and then in the views.py we can call the success 
+method after importing the message package.'''
+
+'''in the python manage.py shell
+we can run the command from myapp.Contact
+Contact.objects.all---it will give us all the objects stored in your database''

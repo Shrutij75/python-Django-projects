@@ -1,0 +1,77 @@
+{% extends 'base.htmL' %}
+
+{% block title %}services{%endblock title%}
+{% block body %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .header {
+            background-color: #ff6384;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .service {
+            background-color: white;
+            margin: 10px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .service h2 {
+            margin-top: 0;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Our Services</h1>
+    </div>
+    <div class="container">
+        <div class="service">
+            <h2>Custom Ice Cream Cakes</h2>
+            <p>Order a custom ice cream cake for your next celebration. Choose your flavors, fillings, and decorations to create a unique and delicious treat.</p>
+        </div>
+        <div class="service">
+            <h2>Catering Services</h2>
+            <p>Let us cater your next event! We offer a variety of catering options, including ice cream bars, sundae stations, and pre-packaged treats.</p>
+        </div>
+        <div class="service">
+            <h2>Seasonal Flavors</h2>
+            <p>Enjoy our rotating selection of seasonal flavors made with fresh, local ingredients. Check back often to see what’s new!</p>
+        </div>
+        <div class="service">
+            <h2>Store Events</h2>
+            <p>Join us for special events at our store, including tasting nights, ice cream making workshops, and more. Follow us on social media for updates!</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Your Ice Cream Brand. All rights reserved.</p>
+    </div>
+</body>
+</html>
+
+
+{%endblock body%}
